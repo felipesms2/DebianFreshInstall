@@ -7,4 +7,5 @@ https://raw.githubusercontent.com/felipesms2/LampSetup/main/README.md
 
 apt update && apt upgrade -y
 apt install okular goldendict sqlitebrowser libreoffice firefox -y 
+apt-get install build-essential linux-headers-`uname -r` dkms -y
 
