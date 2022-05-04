@@ -6,7 +6,7 @@ https://raw.githubusercontent.com/felipesms2/LampSetup/main/README.md
 <br>
 
 apt update && apt upgrade -y
-apt install okular goldendict sqlitebrowser libreoffice htop neofetch geomview firefox -y 
+apt install okular goldendict sqlitebrowser libreoffice htop neofetch geomview firefox ntp -y 
 apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 <br>
