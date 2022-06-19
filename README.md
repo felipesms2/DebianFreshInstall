@@ -4,11 +4,9 @@ Lampp Setup
 https://raw.githubusercontent.com/felipesms2/LampSetup/main/README.md
 
 <br>
+apt-add-repository non-free && apt-add-repository contrib && apt update && apt upgrade -y
 
-apt update && apt upgrade -y
-apt install
-iputils-ping
- okular goldendict sqlitebrowser curl libreoffice htop neofetch geomview firefox ntp -y 
+apt install tor vlc iputils-ping okular goldendict sqlitebrowser curl libreoffice htop neofetch geomview firefox ntp -y 
 apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 <br>
