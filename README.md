@@ -15,6 +15,14 @@ apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 mount tmp folder im ram instead
   mkdir /tmp/ramdisk  &&  sudo mount -t tmpfs -o size=1400m myramdisk /tmp/ramdisk
+  
+  #add user to sudoers
+  nano /etc/sudoers
+    end of file
+      username ALL=(ALL) NOPASSWD:/bin/mkdir,/bin/rmdir
+      username  ALL=(ALL) NOPASSWD:ALL
+
+  
 
 
 
