@@ -17,9 +17,12 @@ mount tmp folder im ram instead
   mkdir /tmp/ramdisk  &&  sudo mount -t tmpfs -o size=1400m myramdisk /tmp/ramdisk
   
   #add user to sudoers
+  <br>
   nano /etc/sudoers
+  <br>
     end of file
       username ALL=(ALL) NOPASSWD:/bin/mkdir,/bin/rmdir
+      <br>
       username  ALL=(ALL) NOPASSWD:ALL
 
   
