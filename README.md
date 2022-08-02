@@ -7,7 +7,7 @@ https://raw.githubusercontent.com/felipesms2/LampSetup/main/README.md
 
 # Install tor
 
-https://dist.torproject.org/torbrowser/11.5.1/tor-browser-linux64-11.5.1_en-US.tar.xz -P /tmp
+wget https://dist.torproject.org/torbrowser/11.5.1/tor-browser-linux64-11.5.1_en-US.tar.xz -P /tmp
 <br>
 cd /tmp
 <br>
