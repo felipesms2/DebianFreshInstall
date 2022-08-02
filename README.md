@@ -4,6 +4,18 @@ Lampp Setup
 https://raw.githubusercontent.com/felipesms2/LampSetup/main/README.md
 
 <br>
+
+# Install tor
+
+https://dist.torproject.org/torbrowser/11.5.1/tor-browser-linux64-11.5.1_en-US.tar.xz -P /tmp
+<br>
+cd /tmp
+<br>
+tar -xf /tmp/tor-browser-linux64-11.5.1_en-US.tar.xz
+<br>
+mv tor-browser_en-US ~/.app
+
+<br>
 sudo -s && add-apt-repository ppa:micahflee/ppa &&
 wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add - && echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list && 
 apt-add-repository non-free && apt-add-repository contrib && apt update && apt upgrade -y
