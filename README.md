@@ -50,6 +50,15 @@ mount tmp folder im ram instead
 
 sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/AnyDeskAllow.sh -P /tmp && sudo mv /tmp/AnyDeskAllow.sh /etc/gdm3/custom.conf 
 
+
+<br>
+
+tmp on user instead
+
+mkdir ~/tmp <br>
+
+
+
   
 
 
