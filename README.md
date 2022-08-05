@@ -53,6 +53,11 @@ sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/A
 # #get Script service
 
 sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/script.service -P /tmp && sudo mv /tmp/script.service /etc/systemd/system/script.service
+<br>
+# #Enable script service
+<br>
+sudo systemctl enable script.service
+
 
 # #get Executable
 
