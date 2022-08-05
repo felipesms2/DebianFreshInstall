@@ -46,9 +46,15 @@ mount tmp folder im ram instead
       <br>
       username  ALL=(ALL) NOPASSWD:ALL
 
-#Allow AnyDesk
+# #Allow AnyDesk
 
-sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/AnyDeskAllow.sh -P /tmp && sudo mv /tmp/AnyDeskAllow.sh /etc/gdm3/custom.conf 
+sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/AnyDeskAllow.sh -P /tmp && sudo mv /tmp/AnyDeskAllow.sh /etc/gdm3/custom.conf
+
+# #get Script service
+
+sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/script.service -P /tmp && sudo mv /tmp/script.service /etc/systemd/system/script.service
+
+https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/CustomUserStartup.sh
 
 
 <br>
