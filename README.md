@@ -54,7 +54,9 @@ sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/A
 
 sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/script.service -P /tmp && sudo mv /tmp/script.service /etc/systemd/system/script.service
 
-https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/CustomUserStartup.sh
+# #get Executable
+
+sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/CustomUserStartup.sh -P /tmp && sudo mv /tmp/script.service /etc/systemd/system/CustomUserStartup.sh
 
 
 <br>
