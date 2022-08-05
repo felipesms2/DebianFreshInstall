@@ -56,7 +56,11 @@ sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/s
 
 # #get Executable
 
-sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/CustomUserStartup.sh -P /tmp && sudo mv /tmp/script.service /etc/systemd/system/CustomUserStartup.sh
+sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/CustomUserStartup.sh -P /tmp && sudo mv /tmp/script.service /usr/bin/CustomUserStartup.sh
+
+# #set executable to run
+
+sudo chmod +x /usr/bin/CustomUserStartup.sh
 
 
 <br>
