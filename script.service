@@ -1,0 +1,15 @@
+#custom boot script
+
+[Unit]
+
+Description=General Startup Proccess custom
+
+After=default.target
+
+[Service]
+
+ExecStart=/usr/bin/custom_user_startup.sh
+
+[Install]
+
+WantedBy=default.target
