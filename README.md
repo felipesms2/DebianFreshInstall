@@ -70,6 +70,13 @@ sudo chmod +x /usr/bin/CustomUserStartup.sh
 
 <br>
 
+
+# #Gnome-disks as sudo
+
+sudo touch /usr/bin/g
+sudo echo "sudo gnome-disks" >> /usr/bin/g
+sudo chmod +x /usr/bin/g
+
 tmp on user instead
 
 mkdir ~/tmp <br>
@@ -77,6 +84,7 @@ mkdir ~/tmp <br>
 
 
   
+
 
 
 
