@@ -77,9 +77,9 @@ sudo chmod +x /usr/bin/CustomUserStartup.sh
 <br>
 touch /usr/bin/g
 <br>
-sudo echo "sudo gnome-disks" >> /usr/bin/g
+echo "sudo gnome-disks" >> /usr/bin/g
 <br>
-sudo chmod +x /usr/bin/g
+chmod +x /usr/bin/g
 
 tmp on user instead
 
