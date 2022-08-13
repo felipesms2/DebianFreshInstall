@@ -74,6 +74,7 @@ sudo chmod +x /usr/bin/CustomUserStartup.sh
 # #Gnome-disks as sudo
 <br>
 #sudo su
+<br>
 touch /usr/bin/g
 <br>
 sudo echo "sudo gnome-disks" >> /usr/bin/g
