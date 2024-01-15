@@ -95,6 +95,36 @@ tmp on user instead
 
 mkdir ~/tmp <br>
 
+<br>
+<br>
+
+# Somme commands
+
+<br>
+
+<b><i> lsbk </b></i> List storage devices <br>
+<b><i> dd if=file.iso of=/dev/of/destination </b></i> Clone disk to another <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
