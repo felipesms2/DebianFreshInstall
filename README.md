@@ -104,7 +104,7 @@ mkdir ~/tmp <br>
 
 <b><i> lsbk </b></i> List storage devices <br>
 <b><i> dd if=file.iso of=/dev/of/destination </b></i> Clone disk to another <br>
-<b><i> ps aux | grep firefox </b></i> Clone disk to another <br>
+<b><i> ps aux | grep firefox </b></i> Search PID <br>
 
 
 
