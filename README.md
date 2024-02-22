@@ -60,45 +60,9 @@ mount tmp folder im ram instead
 
 sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/AnyDeskAllow.sh -P /tmp && sudo mv /tmp/AnyDeskAllow.sh /etc/gdm3/custom.conf
 
-# #get Script service
-
-sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/script.service -P /tmp && sudo mv /tmp/script.service /etc/systemd/system/script.service
-<br>
-# #Enable script service
-<br>
-sudo systemctl enable script.service
-
-
-# #get Executable
-
-sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/CustomUserStartup.sh -P /tmp && sudo mv /tmp/CustomUserStartup.sh /usr/bin/CustomUserStartup.sh
-
 # #set executable to run
 
 sudo chmod +x /usr/bin/CustomUserStartup.sh
-
-
-<br>
-
-
-# #Gnome-disks as sudo
-<br>
-#sudo su
-<br>
-touch /usr/bin/g
-<br>
-echo "sudo gnome-disks" >> /usr/bin/g
-<br>
-chmod +x /usr/bin/g
-
-tmp on user instead
-
-mkdir ~/tmp <br>
-
-<br>
-<br>
-
-# Somme commands
 
 <br>
 
