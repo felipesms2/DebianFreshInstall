@@ -70,7 +70,7 @@ sudo chmod +x /usr/bin/CustomUserStartup.sh
 <b><i> dd if=file.iso of=/dev/of/destination </b></i> Clone disk to another <br>
 <b><i> ps aux | grep firefox </b></i> Search PID <br>
 <b><i> kill -9 40600 </b></i> Kill by pid <br>
-
+<b><i> sudo ss -lptn 'sport = :80' # check process from port  <br>
 
 
 
