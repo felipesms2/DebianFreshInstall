@@ -73,6 +73,7 @@ sudo chmod +x /usr/bin/CustomUserStartup.sh
 <b><i> sudo ss -lptn 'sport = :80' # check process from port  <br>
 <b><i> sudo lsof -nP -iTCP -sTCP:LISTEN # check process from port (more on https://phoenixnap.com/kb/linux-check-open-ports)  <br>
 <br><i>sudo update-alternatives --config x-session-manager # default desktop on rdp https://forum.xfce.org/viewtopic.php?id=14108<i></b>
+<br><i>apt install tmux nmap iproute2 nano vim timeshift virtualbox-qt<i></b>
 
 
 
