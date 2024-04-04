@@ -85,6 +85,8 @@ EOT
 
 sysctl -p
 
+https://askubuntu.com/questions/1392414/how-to-disable-temporary-dynamic-ipv6-addresses-in-ubuntu-21-10
+
 
 
 
