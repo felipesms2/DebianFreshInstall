@@ -76,6 +76,16 @@ sudo chmod +x /usr/bin/CustomUserStartup.sh
 <br><i>apt install tmux nmap iproute2 nano vim timeshift virtualbox-qt<i></b>
 
 
+# Disable dynamic ipv6
+
+cat >> /etc/sysctl.conf <<EOT
+net.ipv6.conf.all.use_tempaddr=0
+net.ipv6.conf.default.use_tempaddr=0
+EOT
+
+sysctl -p
+
+
 
 
 
