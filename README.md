@@ -87,6 +87,13 @@ sysctl -p
 
 https://askubuntu.com/questions/1392414/how-to-disable-temporary-dynamic-ipv6-addresses-in-ubuntu-21-10
 
+# Script to add custom alias file to current user folder and write in end of .bashrc file source . ~/.aliases.sh
+
+  wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/.aliases.sh -P ~/. && echo "source ~/.aliases.sh" >> ~/.bashrc
+
+
+
+
 
 
 
