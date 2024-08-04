@@ -71,3 +71,9 @@ alias ssh-jornalz-dev='ssh root@35.247.217.119'
 alias ssh-gate-1='ssh felipe@34.151.250.117'    
 alias ssh-jornal-1='ssh felipe@34.39.144.170'
 alias vps='ssh root@38.45.66.206'
+alias h='history'
+alias ls='clear ; ls -a'
+alias pd='pwd'
+alias t='time'
+
+source ~/general_use/bin/activate
