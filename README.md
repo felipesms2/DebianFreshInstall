@@ -5,22 +5,6 @@ https://raw.githubusercontent.com/felipesms2/LampSetup/main/README.md
 
 <br>
 
-# Install tor
-
-
-<br>
-sudo -s && add-apt-repository ppa:micahflee/ppa &&
-wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add - && echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list && 
-apt-add-repository non-free && apt-add-repository contrib && apt update && apt upgrade -y
-<br>
-<strong>#vscode</strong>
-
-<br>
-# Codec config
-sudo dpkg-reconfigure libdvd-pkg
-
-<br>
-
 #Util tools
 
 mount tmp folder im ram instead
@@ -29,10 +13,6 @@ mount tmp folder im ram instead
 # #Allow AnyDesk
 
 sudo wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/AnyDeskAllow.sh -P /tmp && sudo mv /tmp/AnyDeskAllow.sh /etc/gdm3/custom.conf
-
-# #set executable to run
-
-sudo chmod +x /usr/bin/CustomUserStartup.sh
 
 <br>
 
