@@ -8,3 +8,5 @@ pytz
 cryptg
 tgcrypto
 tg-archive
+insta-scrape
+instaloader
