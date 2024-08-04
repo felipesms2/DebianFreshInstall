@@ -41,5 +41,9 @@ sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 # Codec config
 # sudo dpkg-reconfigure libdvd-pkg
 
+# Custom aliases
+
+wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/.aliases.sh -P ~/. && echo "source ~/.aliases.sh" >> ~/.bashrc
+
 
 
