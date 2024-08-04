@@ -38,7 +38,7 @@ sudo rm -rf /tmp/freetube_0.21.3_amd64.deb
 
 # Common Software
 sudo apt update;
-apt install -y iproute2 mousepad git libfuse2 chromium-browser gnome-disks pcmanfm lxtask gparted libavcodec-extra install libdvdcss2  tor vlc iputils-ping okular goldendict sqlitebrowser curl libreoffice htop neofetch geomview firefox wine -y
+apt install -y iproute2 zsh mousepad git libfuse2 chromium-browser gnome-disks pcmanfm lxtask gparted libavcodec-extra install libdvdcss2  tor vlc iputils-ping okular goldendict sqlitebrowser curl libreoffice htop neofetch geomview firefox wine -y
 sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 #sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-dashtodock gnome-shell-extension-dash-to-dock
