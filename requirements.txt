@@ -2,3 +2,8 @@ yt-dlp
 youtube-dl
 pytube
 pandas
+pyaml
+pytz
+cryptg
+tgcrypto
+tg-archive
