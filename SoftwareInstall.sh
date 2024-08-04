@@ -60,5 +60,5 @@ sudo apt install python3-pip
 
 # Python coommon daily uses librarys
 
-sudo pip install -r https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/requirements.txt
+pip install -r https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/requirements.txt
 
