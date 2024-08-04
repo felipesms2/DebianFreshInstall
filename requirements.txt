@@ -2,6 +2,7 @@ yt-dlp
 youtube-dl
 pytube
 pandas
+telethon
 pyaml
 pytz
 cryptg
