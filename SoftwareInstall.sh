@@ -54,5 +54,11 @@ sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/.aliases.sh -P ~/. && echo "source ~/.aliases.sh" >> ~/.bashrc
 
+# python pip
 
+sudo apt install python3-pip
+
+# Python coommon daily uses librarys
+
+sudo pip install -r https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/requirements.txt
 
