@@ -6,10 +6,10 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 
 # Tor
 
-wget https://dist.torproject.org/torbrowser/11.5.1/tor-browser-linux64-11.5.1_en-US.tar.xz -P /tmp
-cd /tmp
-tar -xf /tmp/tor-browser-linux64-11.5.1_en-US.tar.xz
-mv tor-browser_en-US ~/applications
+# wget https://dist.torproject.org/torbrowser/11.5.1/tor-browser-linux64-11.5.1_en-US.tar.xz -P /tmp
+# cd /tmp
+# tar -xf /tmp/tor-browser-linux64-11.5.1_en-US.tar.xz
+# mv tor-browser_en-US ~/applications
 
 # AnyDesk
 
