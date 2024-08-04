@@ -56,7 +56,8 @@ wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/.alias
 
 # python pip
 
-sudo apt install python3-pip
+sudo apt install python3-pip python3.10-venv
+
 
 # Python coommon daily uses librarys
 
