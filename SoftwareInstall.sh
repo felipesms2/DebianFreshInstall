@@ -32,9 +32,9 @@ sudo apt install gnome-tweaks -y
 
 # Freetube
 
-
 wget https://objects.githubusercontent.com/github-production-release-asset-2e65be/123220152/106ff72e-5834-4ac5-8b2c-385846e8641c?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20240804%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240804T192704Z&X-Amz-Expires=300&X-Amz-Signature=25653d2cd4f40df257df9741720d8cfaa756483620ba695fa49c4e3e73527066&X-Amz-SignedHeaders=host&actor_id=36195721&key_id=0&repo_id=123220152&response-content-disposition=attachment%3B%20filename%3Dfreetube_0.21.3_amd64.deb&response-content-type=application%2Foctet-stream -P /tmp
 sudo apt install /tmp/freetube_0.21.3_amd64.deb -y
+sudo rm -rf /tmp/freetube_0.21.3_amd64.deb
 
 # Common Software
 sudo apt update;
