@@ -1,7 +1,14 @@
+sudo echo "d ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
 # Docker
 
-sudo echo "d ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
 sudo curl -fsSL https://get.docker.com/ | sh
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin podman
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin podman
 
 # Tor
@@ -26,6 +33,8 @@ sudo rm -f packages.microsoft.gpg
 sudo apt install apt-transport-https
 sudo apt update
 sudo apt install code -y # or code-insiders
+
+
 
 # Gnome Tweaks
 sudo apt install gnome-tweaks -y
