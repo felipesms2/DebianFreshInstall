@@ -3,7 +3,7 @@ youtube-dl
 pytube
 pandas
 telethon
-pyaml
+pyyaml
 pytz
 cryptg
 tgcrypto
