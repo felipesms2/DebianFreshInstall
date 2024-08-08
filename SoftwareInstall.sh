@@ -62,7 +62,9 @@ sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 # Custom aliases
 
 
-rm -f ~/.bashrc
+rm ~/.bashrc
+wget https://gist.githubusercontent.com/zachbrowne/8bc414c9f30192067831fafebd14255c/raw/322a762de6300c6afff4469c9c73b4dd8449d394/The%2520Ultimate%2520Bad%2520Ass%2520.bashrc%2520File -P ~/ && mv ~/The%2520Ultimate%2520Bad%2520Ass%2520.bashrc%2520File ~/.bashrc
+rm -f ~/.aliases.sh
 wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/.aliases.sh -P ~/. && echo "source ~/.aliases.sh" >> ~/.bashrc
 source ~/.bashrc
 

@@ -88,7 +88,7 @@ alias mj='mkdir j; cd j'
 alias mk='mkdir k; cd k'
 alias ml='mkdir l; cd l'
 alias mm='mkdir m; cd m'
-alias dcu='docker-compose up'
-alias dcud='docker-compose up -d'
+alias dcu='docker compose up'
+alias dcud='docker compose up -d'
 
 source ~/general_use/bin/activate
