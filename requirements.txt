@@ -11,3 +11,5 @@ tg-archive
 insta-scrape
 instaloader
 scrapy
+beautifulsoup4
+selenium
