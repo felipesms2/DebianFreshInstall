@@ -61,7 +61,10 @@ sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 # Custom aliases
 
+
+rm -f ~/.bashrc
 wget https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/.aliases.sh -P ~/. && echo "source ~/.aliases.sh" >> ~/.bashrc
+source ~/.bashrc
 
 # python pip
 
