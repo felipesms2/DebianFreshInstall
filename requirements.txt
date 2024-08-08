@@ -10,3 +10,4 @@ tgcrypto
 tg-archive
 insta-scrape
 instaloader
+scrapy
