@@ -75,5 +75,6 @@ alias h='history'
 alias ls='clear ; ls -a'
 alias pd='pwd'
 alias t='time'
+alias ma='mkdir a; cd a'
 
 source ~/general_use/bin/activate
