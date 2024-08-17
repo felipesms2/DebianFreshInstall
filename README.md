@@ -41,6 +41,15 @@ https://askubuntu.com/questions/1392414/how-to-disable-temporary-dynamic-ipv6-ad
 
 7z x yourfile.rar
 
+# 7z archive without compression and split
+
+ 7z a -t7z -mx0 -v1900m output.7z yourfile
+
+ a : Add files to the archive.
+-t7z : Specifies the archive type (7z format).
+-mx0 : Sets the compression level to 0 (no compression).
+-v1900m : Splits the archive into volumes of 1900 MB each.
+
 
 
 
