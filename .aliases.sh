@@ -23,7 +23,7 @@ alias ft='flatpak run io.freetubeapp.FreeTube https://www.youtube.com/watch?v=UR
 alias g='wget '
 alias gad='git add . '
 alias gc='git clone '
-alias gcf='git clean -f '
+alias gcf='git clean -fd '
 alias gcm='git commit -am '
 alias gp='git push '
 alias gms='git switch main; git merge backend; git push ; git switch backend'
