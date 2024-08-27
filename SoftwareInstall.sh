@@ -1,15 +1,15 @@
-sudo echo "d ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
-# Docker
+# sudo echo "d ALL=(ALL) NOPASSWD:ALL" | sudo tee -a /etc/sudoers
+# # Docker
 
-sudo apt update
-sudo apt install apt-transport-https ca-certificates curl software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# sudo apt update
+# sudo apt install apt-transport-https ca-certificates curl software-properties-common
+# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 
-sudo curl -fsSL https://get.docker.com/ | sh
-sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin podman
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
-sudo apt update
-sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin podman
+# sudo curl -fsSL https://get.docker.com/ | sh
+# sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin podman
+# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable"
+# sudo apt update
+# sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin podman
 
 # Tor
 
@@ -25,14 +25,14 @@ sudo apt install /tmp/anydesk_6.3.2-1_amd64.deb -y
 
 # VSCode
 
-sudo apt-get install wget gpg
-wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
-sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
-sudo rm -f packages.microsoft.gpg
-sudo apt install apt-transport-https
-sudo apt update
-sudo apt install code -y # or code-insiders
+# sudo apt-get install wget gpg
+# wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+# sudo install -D -o root -g root -m 644 packages.microsoft.gpg /etc/apt/keyrings/packages.microsoft.gpg
+# sudo sh -c 'echo "deb [arch=amd64,arm64,armhf signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'
+# sudo rm -f packages.microsoft.gpg
+# sudo apt install apt-transport-https
+# sudo apt update
+# sudo apt install code -y # or code-insiders
 
 
 
@@ -55,31 +55,31 @@ zsh \
 mousepad \ 
 git \ 
 libfuse2 \ 
-chromium-browser \  
-gnome-disks \ 
-pcmanfm \ 
-lxtask \ 
-gparted \ 
-libavcodec-extra \ 
-install \  
-libdvdcss2  \ 
-tor \ 
-vlc \ 
+# chromium-browser \  
+# gnome-disks \ 
+# pcmanfm \ 
+# lxtask \ 
+# gparted \ 
+# libavcodec-extra \ 
+# install \  
+# libdvdcss2  \ 
+# tor \ 
+# vlc \ 
 iputils-ping \ 
-okular \ 
-goldendict \ 
-sqlitebrowser \ 
+# okular \ 
+# goldendict \ 
+# sqlitebrowser \ 
 curl \  
-libreoffice \ 
+# libreoffice \ 
 htop \ 
 neofetch \ 
 geomview \ 
-firefox \ 
+# firefox \ 
 flatpak \ 
-docker.io \ 
-podman \ 
-wine -y
-sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
+# docker.io \ 
+# podman \ 
+# wine -y
+# sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 #sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-dashtodock gnome-shell-extension-dash-to-dock
 
