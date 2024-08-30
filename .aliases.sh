@@ -92,5 +92,11 @@ alias mm='mkdir m; cd m'
 alias dcu='docker compose up --remove-orphans'
 alias dcud='docker compose up -d'
 alias dcd='docker compose down'
+alias dce='function _docker_enter() { 
+  CONTAINER_ID=$(docker ps -q | fzf --height 40% --border --ansi)
+  [ -z "$CONTAINER_ID" ] && echo "No container selected!" && return 1
+  docker exec -it "$CONTAINER_ID" /bin/bash
+}; _docker_enter'
+
 
 source ~/general_use/bin/activate
