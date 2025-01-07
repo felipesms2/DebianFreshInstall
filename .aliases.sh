@@ -98,5 +98,7 @@ alias dce='function _docker_enter() {
   docker exec -it "$CONTAINER_ID" /bin/bash
 }; _docker_enter'
 
+source ~/general_use/bin/activate
+
 
 source ~/general_use/bin/activate
