@@ -55,40 +55,40 @@ zsh \
 mousepad \ 
 git \ 
 libfuse2 \ 
-# chromium-browser \  
-# gnome-disks \ 
-# pcmanfm \ 
-# lxtask \ 
-# gparted \ 
-# libavcodec-extra \ 
-# install \  
-# libdvdcss2  \ 
-# tor \ 
-# vlc \ 
+chromium-browser \  
+gnome-disks \ 
+pcmanfm \ 
+lxtask \ 
+gparted \ 
+libavcodec-extra \ 
+install \  
+libdvdcss2  \ 
+tor \ 
+vlc \ 
 iputils-ping \ 
-# okular \ 
-# goldendict \ 
-# sqlitebrowser \ 
+okular \ 
+goldendict \ 
+sqlitebrowser \ 
 curl \  
-# libreoffice \ 
+libreoffice \ 
 htop \ 
 neofetch \ 
 geomview \ 
-# firefox \ 
+firefox \ 
 flatpak \ 
-# docker.io \ 
-# podman \ 
-# wine -y
-# sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
+docker.io \ 
+podman \ 
+wine -y
+sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 
 #sudo apt install gnome-tweaks gnome-shell-extensions gnome-shell-extension-dashtodock gnome-shell-extension-dash-to-dock
 
 # Debian add non-free repo
 
-#sudo add-apt-repository contrib non-free
-#sudo -s && add-apt-repository ppa:micahflee/ppa &&
-# Codec config
-# sudo dpkg-reconfigure libdvd-pkg
+sudo add-apt-repository contrib non-free
+sudo -s && add-apt-repository ppa:micahflee/ppa &&
+Codec config
+sudo dpkg-reconfigure libdvd-pkg
 
 # Custom aliases
 
