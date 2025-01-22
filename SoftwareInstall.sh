@@ -13,7 +13,7 @@
 
 # Tor
 
- wget https://dist.torproject.org/torbrowser/11.5.1/tor-browser-linux64-11.5.1_en-US.tar.xz -P /tmp
+ wget https://dist.torproject.org/torbrowser/14.0.4/tor-browser-linux-x86_64-14.0.4.tar.xz -P /tmp
  cd /tmp
  tar -xf /tmp/tor-browser-linux64-11.5.1_en-US.tar.xz
  mv tor-browser_en-US ~/applications
