@@ -19,11 +19,23 @@
  mv tor-browser_en-US ~/applications
 
 # AnyDesk
+# Add the AnyDesk GPG key
+sudo apt update
+sudo apt install ca-certificates curl
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://keys.anydesk.com/repos/DEB-GPG-KEY -o /etc/apt/keyrings/keys.anydesk.com.asc
+sudo chmod a+r /etc/apt/keyrings/keys.anydesk.com.asc
 
-sudo wget https://download.anydesk.com/linux/anydesk_6.3.2-1_amd64.deb -P /tmp
-sudo apt install /tmp/anydesk_6.3.2-1_amd64.deb -y
+# Add the AnyDesk apt repository
+echo "deb [signed-by=/etc/apt/keyrings/keys.anydesk.com.asc] http://deb.anydesk.com all main" | sudo tee /etc/apt/sources.list.d/anydesk-stable.list > /dev/null
+
+# Update apt caches and install the AnyDesk client
+sudo apt update
+sudo apt install anydesk
+
 
 # VSCode
+
 
 sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
