@@ -1,5 +1,5 @@
 # Aliases
-alias a='php artisan '
+alias a='docker run --rm -v "$(pwd):/app" -w /app felipesms/liga:1.0 php artisan'
 alias ai='sudo apt update; sudo apt install -y ; sudo apt upgrade'
 alias am='php artisan migrate '
 alias amr='rm -rf database/database.sqlite; touch database/database.sqlite; php artisan migrate:refresh '
@@ -42,7 +42,7 @@ alias obs='code ~/.aliases.sh '
 alias osb='ssh osboxes@localhost -p 8022'
 alias p='python3 '
 alias pa='python3 a.py'
-alias pu='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U' 
+alias pu='pip list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U'
 alias pat='php artisan tinker'
 alias pma='php -S localhost:8090'
 alias patt='while true; do php artisan tinker; done' # Ctrl+D reload tinker
@@ -70,7 +70,7 @@ alias l='lvi; ni; nb; php artisan migrate:fresh --seed'
 alias ssh-jornalz-prod='ssh felipe@35.199.114.160'
 alias ssh-jornalz-prod-2='ssh felipe@5.189.136.152'
 alias ssh-jornalz-dev='ssh root@35.247.217.119'
-alias ssh-gate-1='ssh felipe@34.151.250.117'    
+alias ssh-gate-1='ssh felipe@34.151.250.117'
 alias ssh-jornal-1='ssh felipe@34.39.144.170'
 alias vps='ssh root@38.45.66.206'
 alias h='history'
@@ -93,7 +93,7 @@ alias mm='mkdir m; cd m'
 alias dcu='docker compose up --remove-orphans'
 alias dcud='docker compose up -d'
 alias dcd='docker compose down'
-alias dce='function _docker_enter() { 
+alias dce='function _docker_enter() {
   CONTAINER_ID=$(docker ps -q | fzf --height 40% --border --ansi)
   [ -z "$CONTAINER_ID" ] && echo "No container selected!" && return 1
   docker exec -it "$CONTAINER_ID" /bin/bash
