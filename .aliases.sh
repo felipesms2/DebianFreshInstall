@@ -100,6 +100,3 @@ alias dce='function _docker_enter() {
 }; _docker_enter'
 
 source ~/general_use/bin/activate
-
-
-source ~/general_use/bin/activate
