@@ -1,6 +1,6 @@
 yt-dlp
 youtube-dl
-pytube
+pytubefix
 pandas
 telethon
 pyyaml
@@ -13,3 +13,4 @@ instaloader
 scrapy
 beautifulsoup4
 selenium
+
