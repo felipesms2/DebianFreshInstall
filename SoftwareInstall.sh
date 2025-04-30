@@ -59,37 +59,38 @@ sudo rm -rf /tmp/freetube_0.21.3_amd64.deb
 
 # Common Software
 sudo apt update;
-apt install -y \ 
-p7zip-full \ 
-p7zip-rar \ 
-iproute2 \ 
-zsh \ 
-mousepad \ 
-git \ 
-libfuse2 \ 
-chromium-browser \  
-gnome-disks \ 
-pcmanfm \ 
-lxtask \ 
-gparted \ 
-libavcodec-extra \ 
-install \  
-libdvdcss2  \ 
-tor \ 
-vlc \ 
-iputils-ping \ 
-okular \ 
-goldendict \ 
-sqlitebrowser \ 
-curl \  
-libreoffice \ 
-htop \ 
-neofetch \ 
-geomview \ 
-firefox \ 
-flatpak \ 
-docker.io \ 
-podman \ 
+apt install -y \
+p7zip-full \
+p7zip-rar \
+iproute2 \
+zsh \
+mousepad \
+git \
+libfuse2 \
+chromium-browser \
+gnome-disks \
+pcmanfm \
+lxtask \
+gparted \
+libavcodec-extra \
+install \
+libdvdcss2  \
+tor \
+vlc \
+iputils-ping \
+okular \
+goldendict \
+sqlitebrowser \
+curl \
+libreoffice \
+htop \
+neofetch \
+geomview \
+firefox \
+flatpak \
+docker.io \
+chromium-browser \
+podman \
 wine -y
 sudo apt-get install build-essential linux-headers-`uname -r` dkms -y
 
@@ -118,4 +119,11 @@ cd ~ && python3 -m venv general_use
 # Python coommon daily uses librarys
 
 pip install -r https://raw.githubusercontent.com/felipesms2/DebianFreshInstall/main/requirements.txt
+
+#opera
+
+sudo wget https://deb.opera.com/archive.key -P /tmp && sudo apt-key add /tmp/archive.key
+sudo add-apt-repository "deb https://deb.opera.com/opera-stable/ stable non-free"
+sudo apt update
+sudo apt install opera-stable -y
 
